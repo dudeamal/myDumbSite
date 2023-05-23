@@ -1,0 +1,46 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+
+  background-color: black;
+  color: white;
+}
+
+.App {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.App h1 {
+  font-family: 'Spacemono nerd font';
+  font-size: 7vw;
+}
+
+.App button {
+  border: unset;
+  cursor: pointer;
+  padding: 6px 10px 6px 10px;
+  background-color: #f07178;
+  border: 2px solid rgba(255, 255, 255, 0.164);
+  border-radius: 4px;
+  opacity: 0.6;
+  transition: opacity 500ms;
+
+  -webkit-box-shadow: 12px 9px 53px 14px rgba(0,0,0,0.75);
+  -moz-box-shadow: 12px 9px 53px 14px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 63px 8px rgba(182, 53, 53, 0.75);
+}
+
+.App button:first-child {
+  background-color: #7fd962;
+  box-shadow: 1px 1px 63px 8px rgba(53, 182, 143, 0.75);
+}
+
+.App button:hover {
+  opacity: 1;
+  border: 2px solid rgba(255, 255, 255, 0.212);
+  transition: opacity 1s;
+}
